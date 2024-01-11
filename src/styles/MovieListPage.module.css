@@ -1,0 +1,30 @@
+.article {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 3em;
+}
+
+.article_small {
+  width: 60%;
+  margin: auto;
+}
+.actor_small {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2em;
+}
+
+li {
+  list-style: none;
+}
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2em;
+}
+.div_header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3em;
+}

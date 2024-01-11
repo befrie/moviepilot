@@ -5,13 +5,14 @@
  * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
  */
 
-import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
-import "./layout.css"
+// import { PageContext } from "./Context"
+import React, { useState, useContext } from "react"
+import Header from "./Header"
+import "bulma/css/bulma.min.css"
 
 const Layout = ({ children }) => {
+  // const [page, setPage] = useState(useContext(PageContext))
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
